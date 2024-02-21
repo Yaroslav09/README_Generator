@@ -14,17 +14,48 @@ const questions = [
         type: 'input',
         name: 'description',
         message: 'Please add the description of you project'
-    },
-    {
-        type: 'input',
-        name: 'tableOfContents',
-        message: 'Please enter the title of you project'
-    },
+    },    
     {
         type: 'input',
         name: 'installation',
         message: 'Please provide installation process of your project'
-    }
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Please provide usage for your project'
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Please choose license for your project',
+        choices: ['The Unlicense', 
+                'Apache License 2.0', 
+                'MIT License', 
+                'Mozilla Public License 2.0',
+                'GNU General Publick License'
+                ]
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'Please provide instruction for contributing'
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Please provide instruction for testing your project'
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Please add your GitHub link for any questions'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please add your email link for any questions'
+    },
 ];
 
 // function to write README file
