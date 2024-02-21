@@ -13,6 +13,7 @@
 ### Used resources
     - inquirer documentation: https://www.npmjs.com/package/inquirer#examples
     - YouTube tutorial: https://www.youtube.com/watch?v=Qf5EXOyGRxw&t=895s
+    - Nicholas C. Zakas 'Understanding JavaScript Promises'
     - Google search
     - a little bit chatGPT
 
